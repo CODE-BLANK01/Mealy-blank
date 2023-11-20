@@ -71,7 +71,7 @@ const Menu = ({ results }) => {
   };
   const { addToCart } = useCart();
   return (
-    <Box backgroundColor={"#FFD669"}>
+    <Box backgroundColor={"#FFD669"} minH={500}>
       <Center>
         <SimpleGrid
           columns={{ sm: 1, md: 2, xl: 3, "2xl": 3 }}
